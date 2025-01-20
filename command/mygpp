@@ -1,0 +1,5 @@
+#!/bin/zsh
+fileprefix=${1}
+
+g++ -o ${fileprefix}.out -std=c++11 ${fileprefix}.cpp
+./${fileprefix}.out
